@@ -41,7 +41,7 @@ Title: "Ministero della Salute - Codici strutture di ricovero pubbliche"
 Description: "Ministero della Salute - Codici strutture di ricovero pubbliche"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
-* include codes from system $strutturePub where tipoStruttura = #0
+* include codes from system $strutturePub where naturaGiuridica = #Pubblico
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
