@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="minsan-parafarmacie"/>
+     <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:2.16.840.1.113883.2.9.4.1.10"/>
+    </identifier>
     <name value="CsParafarmacie"/>
     <title value="MDS - Elenco Parafarmacie"/>
     <description value="Ministero della Salute - Elenco Parafarmacie. Source"/>

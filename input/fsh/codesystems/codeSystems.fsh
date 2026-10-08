@@ -114,7 +114,10 @@ Title: "AIFA - Autorizzazione Immissione in Commercio"
 Description: "AIFA - Autorizzazione Immissione in Commercio."
 * ^url = "https://www.hl7.it/fhir/terminology/CodeSystem/aifa-aic"
 * ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.5"
 * ^caseSensitive = true
+* ^content = #not-present //si rinvia a https://www.aifa.gov.it/
 //--------------------------
 
 // CodeSystem: CsAifaGruppoEquivalenza
@@ -131,6 +134,8 @@ Id: minsan-regione
 Title: "Ministero della Salute - Codici Regioni / PPAA"
 Description: "Ministero della Salute - Codici Regioni / Province Autonome usati nei file FLS11."
 * ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.2.1"
 * ^caseSensitive = true 
 * #010	"PIEMONTE"
 * #020	"VALLE D'AOSTA"
@@ -254,8 +259,10 @@ Id: it-V3RoleCode
 Title: "HL7 Italia - HL7 V3 RoleCode (estensione)"
 Description: "Estensione del Vocabolario HL7 V3 RoleCode"
 //-------------------------------------------------------------------------------------------
-* ^url = "https://www.hl7.it/fhir/terminology/CodeSystem/it-V3RoleCode"
+//* ^url = "https://www.hl7.it/fhir/terminology/CodeSystem/it-V3RoleCode"
 * ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.5.1.111"
 * ^caseSensitive = true 
 * #MMG  "medico di medicina generale"
 * #PLS  "pediatra di libera scelta"
@@ -280,6 +287,8 @@ Description: "ISTAT - Province"
 //-------------------------------------------------------------------------------------------
 //* ^url = "https://www.hl7.it/fhir/terminology/CodeSystem/mef-ae-province"
 * ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.2.2"
 * ^caseSensitive = true 
 * #001	"Torino"
 * #002	"Vercelli"
@@ -1815,6 +1824,8 @@ Id: aifa-nota
 Title: "AIFA - Indicazioni terapeutiche (Nota AIFA)"
 Description: "AIFA - Indicazioni terapeutiche per le quali un determinato farmaco è rimborsabile a carico del Servizio Sanitario Nazionale. Conosciute come Note AIFA."
 * ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.24"
 * ^status = #active
 * ^caseSensitive = true 
 * #01 "Farmaco in nota: pantoprazolo, omeprazolo, misoprostolo, lansoprazolo, esomeprazolo"
@@ -1869,6 +1880,9 @@ Id: istat-statoCivile
 Title: "ISTAT - Stato Civile"
 Description: "ISTAT - Stato Civile"
 * ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.15"
+ 
 * ^caseSensitive = true 
 
 * #1 "Celibe/Nubile"

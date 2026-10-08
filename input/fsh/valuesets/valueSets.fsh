@@ -44,6 +44,7 @@ Description: "Ministero della Salute - Codici strutture di ricovero pubbliche"
 * include codes from system $strutturePub where naturaGiuridica = #Pubblico
 
 
+
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsEHICPersonalIdOid
 Id: oid-ehicPersonalId
@@ -308,6 +309,7 @@ Id: minsan-idStrutture
 Title: "Ministero della Salute - ID Strutture Ricovero"
 Description: "Ministero della Salute - Identificativi Strutture Ricovero (HSP11)"
 * ^experimental = false
+
 //----------------------------------------
 * codes from system $UriHsp
 
@@ -318,6 +320,7 @@ Id: minsan-idAziendeOspedaliere
 Title: "Ministero della Salute - ID Aziende Ospedaliere"
 Description: "Ministero della Salute - Aziende Ospedaliere (HSP11)"
 * ^experimental = false
+
 //----------------------------------------
 * $UriHsp#010906 "AZ. OSPEDAL. S. CROCE E CARLE"
 * $UriHsp#010907 "AZ. SS.ANTONIO E BIAGIO E C.ARRIGO"
@@ -381,6 +384,7 @@ Description: "Ministero della Salute - Azienda Ospedaliera integrata con l'Unive
 //----------------------------------------
 // * codes from system $UriHsp where type = "2.2"
 * ^experimental = false
+
 * $UriHsp#010904 "AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG"
 * $UriHsp#010905 "AZIENDA OSPED. NOVARA E GALLIATE"
 * $UriHsp#010909 "AOU CITTA' DELLA SALUTE E DELLA SCIENZA"
@@ -833,6 +837,7 @@ Id: vs-mds-farmacia
 Title: "MDS - Farmacia"
 Description: "Ministero della Salute - Elenco Farmacie"
 * ^experimental = false
+* ^language = #it-IT
 * include codes from system $minsan-farmacie
 
 
