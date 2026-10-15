@@ -189,5 +189,32 @@
         <p>MDS - Esenzioni</p>
       </td>
     </tr>
+    </tr>
+      <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-codicefiscale.html" title="CodeSystem/cs-codicefiscale">CF - Codice Fiscale</a>
+      </td>
+      <td>
+        <p>CodeSystem che identifica il dominio dei Codici Fiscali italiani.</p>
+      </td>
+    </tr>
+    </tr>
+      <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-codice-team.html" title="CodeSystem/cs-codice-team">TEAM - Tessera Europea di Assicurazione Malattia</a>
+      </td>
+      <td>
+        <p>CodeSystem che identifica il dominio dei codici TEAM (Tessera Europea di Assicurazione Malattia).</p>
+      </td>
+    </tr>
+    </tr>
+      <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-nessuna-esenzione.html" title="CodeSystem/cs-nessuna-esenzione">MDS - Nessuna Esenzione</a>
+      </td>
+      <td>
+        <p>Nessuna Esenzione</p>
+      </td>
+    </tr>
   </tbody>
 </table>

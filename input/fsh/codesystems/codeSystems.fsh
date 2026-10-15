@@ -1899,3 +1899,40 @@ Description: "ISTAT - Stato Civile"
 * #6 "Unito civilmente"
 * #7 "Stato libero a seguito di decesso della parte unita civilmente"
 * #8 "Stato libero a seguito di scioglimento dell'unione"
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CodeSystem: CsCodiceFiscale
+Id: cs-codicefiscale
+Title: "CF - Codice Fiscale / Partita IVA"
+Description: "CodeSystem che identifica il dominio dei Codici Fiscali italiani. I codici non sono enumerati nel presente artefatto e sono definiti secondo le regole ufficiali vigenti."
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #not-present
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.3.2"
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CodeSystem: CsCodiceTeam
+Id: cs-codice-team
+Title: "TEAM - Tessera Europea di Assicurazione Malattia"
+Description: "CodeSystem che identifica il dominio dei codici TEAM (Tessera Europea di Assicurazione Malattia). I codici non sono enumerati nel presente artefatto e sono definiti secondo le regole ufficiali vigenti."
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #not-present
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.3.7"
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CodeSystem: CsNessunaEsenzione
+Id: cs-nessuna-esenzione
+Title: "Nessuna esenzione"
+Description: "Codice per indicare l'assenza di esenzione"
+* ^experimental = false
+* ^status = #active
+* ^language = #en-US
+* ^caseSensitive = true
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.5.2.2"
+
+* #NE "Nessuna Esenzione"
