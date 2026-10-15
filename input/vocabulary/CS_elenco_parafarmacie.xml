@@ -12,6 +12,7 @@
     <experimental value="false"/>
     <caseSensitive value="false"/>
     <content value="complete"/>
+    <language value="en-US"/>
     <filter>
         <code value="regione"/>
         <description value="Permette di ricercare i codici secondo il codice Regionale di appartenenza"/>

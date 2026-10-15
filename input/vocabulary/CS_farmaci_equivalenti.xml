@@ -8,6 +8,7 @@
     <caseSensitive value="false"/>
     <description value="Farmaci Equivalenti"/>
     <content value="complete"/>
+    <language value="en-US"/>
     <filter>
         <code value="ATC"/>
         <description value="Classificazione ATC farmaco"/>

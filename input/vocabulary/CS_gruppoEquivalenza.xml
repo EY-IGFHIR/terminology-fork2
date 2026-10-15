@@ -12,6 +12,7 @@
     <caseSensitive value="false"/>
     <description value="AIFA - Gruppo di equivalenza"/>
     <content value="complete"/>
+    <language value="en-US"/>
     <concept>
         <code value="H0A"/>
         <display value="ACAMPROSATO 333MG 84 UNITA' USO ORALE"/>

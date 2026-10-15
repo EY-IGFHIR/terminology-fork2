@@ -20,7 +20,7 @@ Title: "MDS - Tipo di Struttura per Srutture di ricovero"
 Description: "MDS - TIpologia di Struttura che identifica le Strutture di ricovero"
 * ^experimental = false
 * ^caseSensitive = true 
-
+* ^language = #en
 * ^concept[0].code = #0
 * ^concept[0].display = "Azienda Ospedaliera"
 * ^concept[0].definition = "Pubblico"
@@ -67,7 +67,7 @@ Title: "ISTAT - Continente"
 Description: "ISTAT - Continente"
 * ^experimental = false
 * ^caseSensitive = true 
-
+* ^language = #en
 * #1 "Europa"
 * #2 "Africa"
 * #3 "Asia"
@@ -93,7 +93,7 @@ Title: "MDS - Tipo di Farmacia"
 Description: "MDS - TIpologia Farmacia"
 * ^experimental = false
 * ^caseSensitive = true 
-
+* ^language = #en
 * #1 "Ordinaria"
 * #2 "Succursale"
 * #3 "Dispensario"
@@ -137,6 +137,7 @@ Description: "Ministero della Salute - Codici Regioni / Province Autonome usati 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.2.1"
 * ^caseSensitive = true 
+* ^language = #en
 * #010	"PIEMONTE"
 * #020	"VALLE D'AOSTA"
 * #030	"LOMBARDIA"
@@ -165,6 +166,7 @@ Title: "ISTAT - Registro delle Denominazioni Urbanistiche Generiche (DUG)"
 Description: "ISTAT - Registro delle Denominazioni Urbanistiche Generiche (DUG)"
 * ^experimental = false
 * ^caseSensitive = true 
+* ^language = #en
 * #1 "arco"
 * #2 "autostrada"
 * #3 "belvedere"
@@ -264,6 +266,7 @@ Description: "Estensione del Vocabolario HL7 V3 RoleCode"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.5.1.111"
 * ^caseSensitive = true 
+* ^language = #en
 * #MMG  "medico di medicina generale"
 * #PLS  "pediatra di libera scelta"
 * #MSD  "medico del servizio/struttura del distretto/azienda" 
@@ -290,6 +293,7 @@ Description: "ISTAT - Province"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.2.2"
 * ^caseSensitive = true 
+* ^language = #en
 * #001	"Torino"
 * #002	"Vercelli"
 * #003	"Novara"
@@ -409,6 +413,7 @@ Description: "MDS - Identificativi Strutture Interne di Ricovero"
 * ^experimental = false
 * ^status = #active
 * ^caseSensitive = true 
+* ^language = #en
 
 * #010030.01 "OSPEDALE CIVILE E.AGNELLI"
 * #010030.03 "OSPEDALE DI POMARETTO"
@@ -874,7 +879,7 @@ Description: "MDS - Codici per l'esezione dal ticket"
 * ^experimental = false
 * ^status = #active
 * ^caseSensitive = true
-
+* ^language = #en
 * #E01 "Cittadini di età inferiore a 6 anni e superiore a 65 anni, appartenenti ad un nucleo familiare con reddito annuo complessivo non superiore a 36.151,98 euro."
 * #E02 "Disoccupati e loro familiari a carico appartenenti ad un nucleo familiare con un reddito annuo complessivo inferiore a 8.263,31 euro, incrementato fino a 11.362,05 euro in presenza del coniuge ed in ragione di ulteriori 516,46 euro per ogni figlio a carico."
 * #E03 "Titolari di pensioni sociali e loro familiari a carico."
@@ -1828,6 +1833,7 @@ Description: "AIFA - Indicazioni terapeutiche per le quali un determinato farmac
 * ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.24"
 * ^status = #active
 * ^caseSensitive = true 
+* ^language = #en
 * #01 "Farmaco in nota: pantoprazolo, omeprazolo, misoprostolo, lansoprazolo, esomeprazolo"
 * #02 "Farmaco in nota: acido chenoursodesossicolico, acido tauroursodesossicolico, acido ursodesossicolico"
 * #04 "Farmaco in nota: duloxetina, gabapentin, pregabalin"
@@ -1882,7 +1888,7 @@ Description: "ISTAT - Stato Civile"
 * ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.15"
- 
+* ^language = #en
 * ^caseSensitive = true 
 
 * #1 "Celibe/Nubile"

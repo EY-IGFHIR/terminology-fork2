@@ -13,6 +13,7 @@
 	<caseSensitive value="false"/>
 	<description value="ISTAT - Classificazione delle professioni"/>
 	<content value="complete"/>
+	<language value="en-US"/>
 	<hierarchyMeaning value="is-a"/>
 	<concept>
 		<code value="1"/>

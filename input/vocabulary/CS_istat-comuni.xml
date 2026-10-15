@@ -10,6 +10,7 @@
     <status value="active"/>
     <description value="ISTAT - Comuni"/>
     <content value="complete"/>
+    <language value="en-US"/>
     <experimental value="false"/>
     <caseSensitive value="false"/>    
     <concept>

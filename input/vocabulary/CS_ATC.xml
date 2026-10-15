@@ -12,6 +12,7 @@
     <caseSensitive value="false"/>
     <description value="AIFA - ATC"/>
     <content value="complete"/>
+    <language value="en-US"/>
     <concept>
         <code value="A10BF01"/>
         <display value="Acarbosio"/>
