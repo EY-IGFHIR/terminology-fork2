@@ -6,7 +6,7 @@ Description: "Questo valueset include i codici per i microrganismi dal sottoinsi
 
 * ^status = #active
 * insert SNOMEDCopyrightForVS
-
+* ^language = #en
 * $sct#646165971000087107 "Shigella flexneri 5a (organism)"
 * $sct#840533007 "Severe acute respiratory syndrome coronavirus 2 (organism)"
 * $sct#767451000 "Trichinella nelsoni (organism)"
@@ -1424,6 +1424,7 @@ Title:	       "Tipo campione"
 Description:   "Valueset contenente i codici SNOMED per la risorsa Specimen - Lab Report per la descrizione del tipo di campione di laboratorio."
 * ^status = #active
 * insert SNOMEDCopyrightForVS
+* ^language = #it
 * $sct#119376003	"Tissue specimen"
 * $sct#119359002	"Bone marrow specimen"
 * $sct#122571007	"Pericardial fluid"
@@ -1459,7 +1460,7 @@ Description:   "Valueset contenente i codici SNOMED per la risorsa Specimen - La
 * $sct#440500007	"Dried blood spot specimen"
 * $sct#258574006	"Mid-stream urine specimen"
 * $sct#119340004	"Meconium specimen"
-* $sct#119360007	"Dialysis fluid"
+//* $sct#119360007	"Dialysis fluid"
 * $sct#119332005	"Synovial fluid"
 * $sct#258455001	"Drainage fluid"
 * $sct#119371008	"Specimen from abscess"

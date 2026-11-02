@@ -880,6 +880,8 @@ Description: "MDS - Codici per l'esezione dal ticket"
 * ^status = #active
 * ^caseSensitive = true
 * ^language = #it
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.22"
 * #E01 "Cittadini di età inferiore a 6 anni e superiore a 65 anni, appartenenti ad un nucleo familiare con reddito annuo complessivo non superiore a 36.151,98 euro."
 * #E02 "Disoccupati e loro familiari a carico appartenenti ad un nucleo familiare con un reddito annuo complessivo inferiore a 8.263,31 euro, incrementato fino a 11.362,05 euro in presenza del coniuge ed in ragione di ulteriori 516,46 euro per ogni figlio a carico."
 * #E03 "Titolari di pensioni sociali e loro familiari a carico."
