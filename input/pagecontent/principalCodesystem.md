@@ -293,5 +293,21 @@
           <p>Codici identificativi per tipologie di assistenza a stranieri in temporaneo soggiorno, secondo classificazioni italiane ed europee.</p>
         </td>
       </tr>
+      <tr>
+        <td style="column-width:30%">
+          <a href="CodeSystem-cs-loinc-it.html" title="CodeSystem/cs-loinc-it">CsLoincIT</a>
+        </td>
+        <td>
+          <p>Codici del LOINC italiano.</p>
+        </td>
+      </tr>
+        <tr>
+        <td style="column-width:30%">
+          <a href="CodeSystem-no-allergies.html" title="CodeSystem/no-allergies">CsNoAllergiesInfo</a>
+        </td>
+        <td>
+          <p>Nessuna allergia oppure agente non noto</p>
+        </td>
+      </tr>
   </tbody>
 </table>
