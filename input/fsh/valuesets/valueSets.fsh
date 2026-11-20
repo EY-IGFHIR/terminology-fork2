@@ -4,7 +4,10 @@ Id: who-icd9cm
 Title: "WHO ICD-9-CM"
 Description: "WHO ICD-9-CM"
 * ^experimental = false
-//-------------------------------------------------------------------------------------------
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.6.103"
+
 * codes from system $icd-9-cm
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
