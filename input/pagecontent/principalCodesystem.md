@@ -301,12 +301,12 @@
           <p>Codici del LOINC italiano.</p>
         </td>
       </tr>
-        <tr>
+      <tr>
         <td style="column-width:30%">
-          <a href="CodeSystem-no-allergies.html" title="CodeSystem/no-allergies">CsNoAllergiesInfo</a>
+          <a href="CodeSystem-mds-esenzioni.html" title="CodeSystem/mds-esenzioni">CsEsenzioni</a>
         </td>
         <td>
-          <p>Nessuna allergia oppure agente non noto</p>
+          <p>Codici di esenzione dal ticket</p>
         </td>
       </tr>
   </tbody>

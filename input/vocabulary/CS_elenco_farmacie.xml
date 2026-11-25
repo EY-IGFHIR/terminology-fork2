@@ -10,8 +10,8 @@
     <status value="active"/>
     <experimental value="false"/>
     <caseSensitive value="false"/>
-    <description value="Ministero della Salute - Elenco Farmacie. Source: www.dati.salute.gov.it/dataset/farmacie.jsp"/>
-    <content value="complete"/>
+    <description value="Ministero della Salute - Elenco Farmacie. Per l'elenco esaustivo dei codici consultare la fonte del Ministero della Salute: source: https://www.dati.salute.gov.it/it/dataset/farmacie/"/>
+    <content value="fragment"/>
     <language value="it-IT"/>
     <filter>
         <code value="regione"/>

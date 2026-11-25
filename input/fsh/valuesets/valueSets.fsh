@@ -369,7 +369,7 @@ Description: "Ministero della Salute - Aziende Ospedaliere (HSP11)"
 * $UriHsp#150907 "A.O. SANT'ANNA E SAN SEBASTIANO  CASERTA"
 * $UriHsp#170901 "AZIENDA OSPEDALIERA REGIONALE 'S. CARLO'"
 * $UriHsp#180912 "AZIENDA OSPEDALIERA DI COSENZA"
-* $UriHsp#180913 "Azienda Ospedaliera Pugliese De Lellis"
+// * $UriHsp#180913 "Azienda Ospedaliera Pugliese De Lellis"
 * $UriHsp#180914 "A.O. MATER DOMINI CATANZARO"
 * $UriHsp#180915 "Azienda Osp.  Bianchi-Melacrino-Morelli"
 * $UriHsp#190921 "A.O. per l'Emergenza Cannizzaro"
@@ -386,25 +386,25 @@ Id: minsan-idAou
 Title: "Ministero della Salute - ID Aziende Ospedaliere Universitarie"
 Description: "Ministero della Salute - Azienda Ospedaliera integrata con l'Università (HSP11)"
 //----------------------------------------
-// * codes from system $UriHsp where type = "2.2"
+* codes from system $UriHsp where tipoStruttura = "2.2"
 * ^experimental = false
 
-* $UriHsp#010904 "AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG"
-* $UriHsp#010905 "AZIENDA OSPED. NOVARA E GALLIATE"
-* $UriHsp#010909 "AOU CITTA' DELLA SALUTE E DELLA SCIENZA"
-* $UriHsp#050912 "AZ.OSP.UNIVERSITARIA INTEGRATA VERONA"
-* $UriHsp#080902 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR"
-* $UriHsp#080904 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD"
-* $UriHsp#080908 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL"
-* $UriHsp#080909 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER"
-* $UriHsp#090901 "AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA"
-* $UriHsp#090902 "AZIENDA OSPEDALIERA UNIVERSITARIA SENESE"
-* $UriHsp#090903 "AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI"
-* $UriHsp#090904 "AZIENDA OSPEDALIERA MEYER"
-* $UriHsp#120919 "AZIENDA OSPEDALIERA SANT`ANDREA"
-* $UriHsp#120920 "AZ. OSP. UNIV. POLICLINICO TOR VERGATA"
-* $UriHsp#150904 "A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR"
-* $UriHsp#160910 "AO UNIV. 'OO RR FOGGIA'"
+// * $UriHsp#010904 "AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG"
+// * $UriHsp#010905 "AZIENDA OSPED. NOVARA E GALLIATE"
+// * $UriHsp#010909 "AOU CITTA' DELLA SALUTE E DELLA SCIENZA"
+// * $UriHsp#050912 "AZ.OSP.UNIVERSITARIA INTEGRATA VERONA"
+// * $UriHsp#080902 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR"
+// * $UriHsp#080904 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD"
+// * $UriHsp#080908 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL"
+// * $UriHsp#080909 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER"
+// * $UriHsp#090901 "AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA"
+// * $UriHsp#090902 "AZIENDA OSPEDALIERA UNIVERSITARIA SENESE"
+// * $UriHsp#090903 "AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI"
+// * $UriHsp#090904 "AZIENDA OSPEDALIERA MEYER"
+// * $UriHsp#120919 "AZIENDA OSPEDALIERA SANT`ANDREA"
+// // * $UriHsp#120920 "AZ. OSP. UNIV. POLICLINICO TOR VERGATA"
+// * $UriHsp#150904 "A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR"
+// * $UriHsp#160910 "AO UNIV. 'OO RR FOGGIA'"
 
 
 ValueSet: VsIstatStatoCivile
@@ -445,7 +445,7 @@ Title: "Ministero della Salute - Esenzioni"
 Description: "Codici Esenzioni Ministero della Salute"
 * ^experimental = false
 * ^status = #active
-* include codes from  system mds-esenzioni
+* include codes from  system $mds-esenzioni
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
